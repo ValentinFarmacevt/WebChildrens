@@ -1,0 +1,129 @@
+.photo {
+    width: 426px;
+    height: 426px;
+    flex-shrink: 0;
+}
+
+
+.main {
+    margin: 0px 200px;
+}
+
+.content {
+    display: flex;
+    margin: 50px 0px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content-text {
+    color: #000;
+    padding: 0px 62px;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.spliter {
+    width: 100%;
+    background-image: url("../src/3 2.png");
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.row-images {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image-small {
+    margin: 10px;
+    width: 180px;
+    height: 162px;
+    flex-shrink: 0;
+}
+
+.test {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-link {
+    margin-top: 50px;
+    text-align: center;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.test-button {
+    margin: 50px 0px;
+    padding: 40px 0px;
+    text-align: center;
+    display: block;
+    width: 1083px;
+    color: #000;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background-color: gray;
+}
+
+h1 {
+    text-align: center;
+    width: 100%;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 250px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+h2 {
+    text-align: center;
+    width: 100%;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+header {
+    background-image: url("../src/3\ 1.png");
+}
+
+footer {
+    padding: 83px 0px 122px;
+    background-color: #000;
+    width: 100%;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
